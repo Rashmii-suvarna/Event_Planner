@@ -50,24 +50,21 @@ class EventListScreen extends StatelessWidget {
                       builder: (context, snapshot) {
                         if (snapshot.hasError) {
                           return const Center(
-                            child: Text(
-                              "Error loading events",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          );
+                              child: Text("Error loading events",
+                                  style: TextStyle(color: Colors.white)));
                         }
                         if (snapshot.connectionState ==
                             ConnectionState.waiting) {
                           return const Center(child: CircularProgressIndicator());
                         }
-
                         final events = snapshot.data!.docs;
 
                         if (events.isEmpty) {
                           return const Center(
                             child: Text(
                               "No events found.",
-                              style: TextStyle(color: Colors.white, fontSize: 18),
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 18),
                             ),
                           );
                         }
@@ -97,52 +94,48 @@ class EventListScreen extends StatelessWidget {
 
                             return Container(
                               margin: const EdgeInsets.symmetric(vertical: 8),
+                              padding: const EdgeInsets.all(12),
                               decoration: BoxDecoration(
-                                color: Colors.black.withOpacity(0.4),
+                                color: Colors.white.withOpacity(0.2),
                                 borderRadius: BorderRadius.circular(12),
                               ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(16.0),
-                                child: Column(
+                              child: ListTile(
+                                title: Text(
+                                  name,
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                subtitle: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      name,
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 18,
-                                        color: Colors.white,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 6),
+                                    const SizedBox(height: 4),
                                     Text("Date: $date",
-                                        style: const TextStyle(color: Colors.white)),
+                                        style: const TextStyle(
+                                            color: Colors.white)),
                                     Text("Location: $location",
-                                        style: const TextStyle(color: Colors.white)),
+                                        style: const TextStyle(
+                                            color: Colors.white)),
                                     Text("Attendees: $attendees",
-                                        style: const TextStyle(color: Colors.white)),
+                                        style: const TextStyle(
+                                            color: Colors.white)),
                                     Text("Comments: $comments",
-                                        style: const TextStyle(color: Colors.white)),
-                                    const SizedBox(height: 8),
-                                    Align(
-                                      alignment: Alignment.centerRight,
-                                      child: IconButton(
-                                        icon: const Icon(Icons.arrow_forward_ios,
-                                            color: Colors.white),
-                                        onPressed: () {
-                                          Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                              builder: (_) => EventDetailsScreen(
-                                                eventId: doc.id,
-                                              ),
-                                            ),
-                                          );
-                                        },
-                                      ),
-                                    ),
+                                        style: const TextStyle(
+                                            color: Colors.white)),
                                   ],
                                 ),
+                                trailing: const Icon(Icons.arrow_forward_ios,
+                                    color: Colors.white),
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (_) => EventDetailsScreen(
+                                          eventId: doc.id),
+                                    ),
+                                  );
+                                },
                               ),
                             );
                           },
