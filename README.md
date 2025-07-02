@@ -1,16 +1,68 @@
-# event_planner_app
+# 📅 Event Planner App
 
-A new Flutter project.
+A sleek, full-featured event planner mobile app built using **Flutter** and **Firebase**.  
+This app allows users to create, manage, and attend social events — with RSVP tracking, real-time comments, and a clean personalized UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 **Features**
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Email/password authentication with email verification  
+- 🗓️ Create and manage events (title, description, date, location)  
+- 👥 RSVP tracking – users can mark themselves as attending  
+- 💬 Comment section for each event  
+- 📋 View past and upcoming events  
+- 🖼️ Full-screen UI with background image  
+- 🔄 Edit and delete events  
+- 🔔 Personalized welcome and motivational quote on home screen  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧑‍💻 **Technologies Used**
+
+| Tech                         | Purpose                                |
+|------------------------------|----------------------------------------|
+| **Flutter**                  | Frontend UI framework                   |
+| **Firebase Auth**            | User authentication                    |
+| **Cloud Firestore**          | Realtime database (events, comments)   |
+| **Dart**                     | Programming language                   |
+| **Google Fonts**, **Provider** | UI & state management               |
+
+---
+
+## 📸 **Screenshots**
+
+<p><strong>🏠 Home Screen</strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-15-21-227_com.example.event_planner_app.png" width="400"/>
+</p>
+
+<p><strong>➕ Create Event</strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-15-39-294_com.example.event_planner_app.png" width="400"/>
+</p>
+
+<p><strong>📅 Event List</strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-18-18-374_com.example.event_planner_app.png" width="400"/>
+</p>
+
+<p><strong>📄 Event Details</strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-20-04-137_com.example.event_planner_app.png" width="400"/>
+</p>
+
+<p><strong>🧾 RSVP & Comments</strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-51-10-365_com.example.event_planner_app.png" width="400"/>
+</p>
+
+---
+
+## 📂 **Project Structure**
+
+```plaintext
+lib/
+├── main.dart
+├── login_screen.dart
+├── signup_screen.dart
+├── home_screen.dart
+├── create_event_screen.dart
+├── event_list_screen.dart
+├── event_details_screen.dart
+└── styles.dart
