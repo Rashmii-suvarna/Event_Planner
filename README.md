@@ -32,27 +32,24 @@ This app allows users to create, manage, and attend social events — with RSVP 
 
 ## 📸 **Screenshots**
 
-<p><strong>🏠 Home Screen</strong><br/>
+<p><strong> Login Screen</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-15-21-227_com.example.event_planner_app - Copy - Copy.jpg" width="400"/>
 </p>
 
 
-screenshots/Screenshot_2025-07-02-12-15-39-294_com.example.event_planner_app.jpg
-
-
-<p><strong>🏠 Home Screen</strong><br/>
+<p><strong> Home Screen</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-15-39-294_com.example.event_planner_app.jpg" width="400"/>
 </p>
 
-<p><strong>🏠 Home Screen</strong><br/>
+<p><strong> Create Event Screen</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-18-18-374_com.example.event_planner_app.jpg" width="400"/>
 </p>
 
-<p><strong>🏠 Home Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-20-04-137_com.example.event_planner_app.jpg" width="400"/>
+<p><strong> Event Info screen </strong><br/>
+<img src="screenshots/Screenshot_2025-07-02-12-20-04-137_com.example.event_planner_app - Copy.jpg" width="400"/>
 </p>
 
-<p><strong>🏠 Home Screen</strong><br/>
+<p><strong> All Event</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-51-10-365_com.example.event_planner_app.jpg" width="400"/>
 </p>
 
