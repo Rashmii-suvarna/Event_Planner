@@ -33,8 +33,9 @@ This app allows users to create, manage, and attend social events — with RSVP 
 ## 📸 **Screenshots**
 
 <p><strong>🏠 Home Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-15-21-227_com.example.event_planner_app.png" width="400"/>
+<img src="screenshots/Screenshot_2025-07-02-12-15-21-227_com.example.event_planner_app - Copy - Copy.jpg" width="400"/>
 </p>
+
 
 <p><strong>➕ Create Event</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-15-39-294_com.example.event_planner_app.png" width="400"/>
