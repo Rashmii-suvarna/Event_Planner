@@ -1,7 +1,7 @@
-# 📅 Event Planner App
+# VIBHORAM Event Planner App
 
-A sleek, full-featured event planner mobile app built using **Flutter** and **Firebase**.  
-This app allows users to create, manage, and attend social events — with RSVP tracking, real-time comments, and a clean personalized UI.
+**VIBHORAM** is a modern mobile application designed to simplify event planning and enhance real-time social connectivity.  
+Built using **Flutter** and **Firebase**, the app allows users to effortlessly create, manage, and share events — perfect for both scheduled functions and spontaneous gatherings.
 
 ---
 
@@ -49,7 +49,7 @@ This app allows users to create, manage, and attend social events — with RSVP 
 <img src="screenshots/Screenshot_2025-07-02-12-20-04-137_com.example.event_planner_app - Copy.jpg" width="400"/>
 </p>
 
-<p><strong> All Event</strong><br/>
+<p><strong> All Events Screen</strong><br/>
 <img src="screenshots/Screenshot_2025-07-02-12-51-10-365_com.example.event_planner_app.jpg" width="400"/>
 </p>
 
@@ -67,3 +67,42 @@ lib/
 ├── event_list_screen.dart
 ├── event_details_screen.dart
 └── styles.dart
+```
+
+
+## ⚙️ How to Run the App Locally
+
+### ✅ Prerequisite
+
+
+- Flutter SDK installed → [Flutter Install Guide](https://flutter.dev/docs/get-started/install)
+- Firebase project set up (Authentication + Firestore)
+
+---
+
+### 🧪 Steps to Run
+
+
+# Clone this repo
+git clone https://github.com/Rashmii-suvarna/Event_Planner.git
+
+cd Event_Planner
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
+🔐 Note: Add your Firebase configs like google-services.json and GoogleService-Info.plist before running.
+
+
+
+## 🙋‍♀️ **About the Developer**
+
+**Rashmi Suvarna**  
+**MCA Student | Flutter Developer**
+
+**🔗LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/rashmi2003)**
+
+
